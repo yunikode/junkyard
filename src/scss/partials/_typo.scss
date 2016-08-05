@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+
+$fontBody: 'Vollkorn', serif;
+$fontHead: 'Amatic SC', serif;
+
+*, html, body {
+  font-family: $fontBody;
+  font-size: 1em;
+}
+
+@for $index from 1 through 6 {
+  h#{$index}{
+    font-family: $fontHead;
+    font-weight: 700;
+  }
+}
+
+
+
+
+
+.parallax-container h5 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
+  font-weight: 400;
+}

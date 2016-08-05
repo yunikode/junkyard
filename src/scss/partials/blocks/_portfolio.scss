@@ -1,0 +1,21 @@
+#_Portfolio {
+
+  .card {
+    span.card-title {
+      font-family: 'Amatic SC', serif;
+      font-weight: 700;
+      font-size: 2em;
+      line-height: 1em;
+    }
+
+    .card-subtitle {
+      font-size: 1.7em;
+      text-align: center;
+    }
+
+    a {
+      position: relative;
+      bottom: 10px;
+    }
+  }
+}

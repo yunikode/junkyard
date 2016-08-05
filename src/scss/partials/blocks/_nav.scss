@@ -1,0 +1,11 @@
+nav {
+  .brand-logo {
+    font-family: $fontHead;
+  }
+}
+
+.pinned {
+  position: fixed;
+  // top: -40px;
+  z-index: 999;
+}
